@@ -12,3 +12,13 @@
 
   $ source myvenv/bin/activate
   ```
+
+### Install Project Requirement, Migrations and Run
+```
+$ pip install -r requirement.txt
+
+$ python manage.py migrate
+
+$ python manage.py runserver
+
+```
