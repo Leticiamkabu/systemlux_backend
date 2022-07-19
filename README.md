@@ -13,9 +13,11 @@
   $ source myvenv/bin/activate
   ```
 
-### Install Project Requirement, Migrations and Run
+### Generate Project Requirement, Install Migrations and Run
 ```
-$ pip install -r requirement.txt
+$ pip freeze > requirements.txt
+
+$ pip install -r requirements.txt
 
 $ python manage.py migrate
 

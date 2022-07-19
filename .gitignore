@@ -26,3 +26,5 @@ myvenv/*
 myenv
 myenv/
 myenv/*
+__pycache__/
+/migrations/00
